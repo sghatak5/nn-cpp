@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sghatak5/Project/NN
+CMAKE_SOURCE_DIR = /home/sghatak5/Project/nn-cpp/NN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sghatak5/Project/NN/build
+CMAKE_BINARY_DIR = /home/sghatak5/Project/nn-cpp/NN/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sghatak5/Project/NN/build/CMakeFiles /home/sghatak5/Project/NN/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sghatak5/Project/nn-cpp/NN/build/CMakeFiles /home/sghatak5/Project/nn-cpp/NN/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sghatak5/Project/NN/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sghatak5/Project/nn-cpp/NN/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,6 +129,30 @@ NN/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NN.dir/build.make CMakeFiles/NN.dir/build
 .PHONY : NN/fast
 
+src/Neuron.o: src/Neuron.cpp.o
+.PHONY : src/Neuron.o
+
+# target to build an object file
+src/Neuron.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NN.dir/build.make CMakeFiles/NN.dir/src/Neuron.cpp.o
+.PHONY : src/Neuron.cpp.o
+
+src/Neuron.i: src/Neuron.cpp.i
+.PHONY : src/Neuron.i
+
+# target to preprocess a source file
+src/Neuron.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NN.dir/build.make CMakeFiles/NN.dir/src/Neuron.cpp.i
+.PHONY : src/Neuron.cpp.i
+
+src/Neuron.s: src/Neuron.cpp.s
+.PHONY : src/Neuron.s
+
+# target to generate assembly for a file
+src/Neuron.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NN.dir/build.make CMakeFiles/NN.dir/src/Neuron.cpp.s
+.PHONY : src/Neuron.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... NN"
+	@echo "... src/Neuron.o"
+	@echo "... src/Neuron.i"
+	@echo "... src/Neuron.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

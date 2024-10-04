@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/NN.dir/src/main.cpp.o -o NN 
+/usr/bin/c++ CMakeFiles/NN.dir/src/main.cpp.o CMakeFiles/NN.dir/src/Neuron.cpp.o -o NN 

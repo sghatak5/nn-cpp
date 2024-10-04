@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/NN.dir/src/Neuron.cpp.o"
+  "CMakeFiles/NN.dir/src/Neuron.cpp.o.d"
   "CMakeFiles/NN.dir/src/main.cpp.o"
   "CMakeFiles/NN.dir/src/main.cpp.o.d"
   "NN"
