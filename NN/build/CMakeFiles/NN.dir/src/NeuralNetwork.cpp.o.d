@@ -1,5 +1,7 @@
-CMakeFiles/NN.dir/src/main.cpp.o: \
- /home/sghatak5/Project/nn-cpp/NN/src/main.cpp /usr/include/stdc-predef.h \
+CMakeFiles/NN.dir/src/NeuralNetwork.cpp.o: \
+ /home/sghatak5/Project/nn-cpp/NN/src/NeuralNetwork.cpp \
+ /usr/include/stdc-predef.h \
+ /home/sghatak5/Project/nn-cpp/NN/src/../include/NeuralNetwork.hpp \
  /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -147,14 +149,13 @@ CMakeFiles/NN.dir/src/main.cpp.o: \
  /usr/include/c++/12/bits/locale_facets.tcc \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
- /usr/include/c++/12/bits/istream.tcc \
- /home/sghatak5/Project/nn-cpp/NN/src/../include/Neuron.hpp \
- /home/sghatak5/Project/nn-cpp/NN/src/../include/Matrix.hpp \
- /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_uninitialized.h \
+ /usr/include/c++/12/bits/istream.tcc /usr/include/c++/12/vector \
+ /usr/include/c++/12/bits/stl_uninitialized.h \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
- /usr/include/c++/12/bits/vector.tcc /usr/include/c++/12/random \
- /usr/include/c++/12/cmath /usr/include/math.h \
+ /usr/include/c++/12/bits/vector.tcc \
+ /home/sghatak5/Project/nn-cpp/NN/src/../include/Matrix.hpp \
+ /usr/include/c++/12/random /usr/include/c++/12/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
@@ -184,7 +185,5 @@ CMakeFiles/NN.dir/src/main.cpp.o: \
  /usr/include/c++/12/bits/stl_numeric.h /usr/include/c++/12/bit \
  /usr/include/c++/12/pstl/glue_numeric_defs.h \
  /usr/include/c++/12/pstl/execution_defs.h \
- /home/sghatak5/Project/nn-cpp/NN/src/../include/NeuralNetwork.hpp \
- /home/sghatak5/Project/nn-cpp/NN/src/../include/Matrix.hpp \
  /home/sghatak5/Project/nn-cpp/NN/src/../include/Layer.hpp \
  /home/sghatak5/Project/nn-cpp/NN/src/../include/Neuron.hpp

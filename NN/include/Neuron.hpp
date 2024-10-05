@@ -9,6 +9,8 @@ class Neuron{
 public:
     Neuron(double val);
     
+    void setVal(double v);
+    
     // activation function f(x) = x / (1 + |x|)
     void activate(); 
 
@@ -23,7 +25,7 @@ public:
 private:
     double val;
     double activatedVal; // Value after activation layer
-    double derivedVal; // Derivated of activated value (during backpropagation)
+    double derivedVal; // Derivation of activated value (during backpropagation)
 };
 
 #endif

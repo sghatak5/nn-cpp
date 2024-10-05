@@ -1,5 +1,7 @@
-CMakeFiles/NN.dir/src/main.cpp.o: \
- /home/sghatak5/Project/nn-cpp/NN/src/main.cpp /usr/include/stdc-predef.h \
+CMakeFiles/NN.dir/src/Layer.cpp.o: \
+ /home/sghatak5/Project/nn-cpp/NN/src/Layer.cpp \
+ /usr/include/stdc-predef.h \
+ /home/sghatak5/Project/nn-cpp/NN/src/../include/Layer.hpp \
  /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -183,8 +185,4 @@ CMakeFiles/NN.dir/src/main.cpp.o: \
  /usr/include/c++/12/bits/random.tcc /usr/include/c++/12/numeric \
  /usr/include/c++/12/bits/stl_numeric.h /usr/include/c++/12/bit \
  /usr/include/c++/12/pstl/glue_numeric_defs.h \
- /usr/include/c++/12/pstl/execution_defs.h \
- /home/sghatak5/Project/nn-cpp/NN/src/../include/NeuralNetwork.hpp \
- /home/sghatak5/Project/nn-cpp/NN/src/../include/Matrix.hpp \
- /home/sghatak5/Project/nn-cpp/NN/src/../include/Layer.hpp \
- /home/sghatak5/Project/nn-cpp/NN/src/../include/Neuron.hpp
+ /usr/include/c++/12/pstl/execution_defs.h

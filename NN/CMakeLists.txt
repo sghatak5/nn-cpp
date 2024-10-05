@@ -5,4 +5,7 @@ project(NN)
 add_executable(
     ${PROJECT_NAME} 
     src/main.cpp 
-    src/Neuron.cpp)
+    src/Neuron.cpp
+    src/Layer.cpp
+    src/Matrix.cpp
+    src/NeuralNetwork.cpp)

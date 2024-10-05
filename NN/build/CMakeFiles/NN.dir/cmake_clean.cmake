@@ -1,4 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/NN.dir/src/Layer.cpp.o"
+  "CMakeFiles/NN.dir/src/Layer.cpp.o.d"
+  "CMakeFiles/NN.dir/src/Matrix.cpp.o"
+  "CMakeFiles/NN.dir/src/Matrix.cpp.o.d"
+  "CMakeFiles/NN.dir/src/NeuralNetwork.cpp.o"
+  "CMakeFiles/NN.dir/src/NeuralNetwork.cpp.o.d"
   "CMakeFiles/NN.dir/src/Neuron.cpp.o"
   "CMakeFiles/NN.dir/src/Neuron.cpp.o.d"
   "CMakeFiles/NN.dir/src/main.cpp.o"
